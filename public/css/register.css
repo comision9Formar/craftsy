@@ -1,0 +1,41 @@
+.register main{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.register h1{
+    text-align: center;
+}
+
+.register .box-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.register h4{
+    margin: 20px 0;
+}
+
+.register .box-form input, select{
+    margin: 5px 0;
+    height: 25px;
+}
+
+.register .box-form small{
+    color: red;
+}
+
+.register .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register .options label{
+    font-size: 14px;
+}
+
+.register .box-form textarea{
+    resize: none;
+}
